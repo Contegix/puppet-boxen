@@ -33,6 +33,8 @@ github "ruby",       "6.3.4"
 github "stdlib",     "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",       "1.0.0"
 github "xquartz",    "1.1.0"
+github "pkgconfig", "1.0.0"
+github "pcre", "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
@@ -50,6 +52,7 @@ github "pycharm", "1.0.3"
 github "zeromq", "1.0.0"
 github "league_of_legends", "1.1.2"
 github "redis", "1.0.0"
+github "libtool", "1.0.0"
 
 github "adium",             "1.2.0"
 github "caffeine",          "1.0.0"
