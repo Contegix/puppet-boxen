@@ -64,16 +64,16 @@ node default {
   }
 
   # node versions
-  include nodejs::v0_4
-  include nodejs::v0_6
-  include nodejs::v0_8
-  include nodejs::v0_10
+  #include nodejs::v0_4
+  #include nodejs::v0_6
+  #include nodejs::v0_8
+  #include nodejs::v0_10
 
   # default ruby versions
-  include ruby::1_8_7
-  include ruby::1_9_2
-  include ruby::1_9_3
-  include ruby::2_0_0
+  #include ruby::1_8_7
+  #include ruby::1_9_2
+  #include ruby::1_9_3
+  #include ruby::2_0_0
 
   # common, useful packages
   package {
@@ -89,29 +89,5 @@ node default {
     target => $boxen::config::repodir
   }
 
-  include autoconf
-  include gcc
-  include inifile
-  include openssl
-  include repository
-  include stdlib
-  include sudo 
-  include xquartz 
-
-  include mysql  
-  include phpstorm
-  include php
-  include virtualbox
-  include skype
-  include webstorm
-  include hipchat
-  include macvim
-  include iterm2
-  include python
-  include pycharm
-  include zeromq
-  include league_of_legends
-
-  include homebrew
-  include skype
+  include team::environment
 }
