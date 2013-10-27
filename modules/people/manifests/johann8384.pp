@@ -3,11 +3,21 @@ class people::johann8384 {
   include chrome
 
   include redis
-  include heroku
-
+  include zeromq
   include go
   go::version { '1.1.2': }
   #TODO: set `goenv global 1.1.2`?
+
+  include mysql  
+  include phpstorm
+  include php
+
+  include webstorm
+  include hipchat
+  include macvim
+  include iterm2
+  include python
+  include pycharm
 
   #text editors i hate the least
   include macvim
@@ -34,6 +44,9 @@ class people::johann8384 {
   #non-dev stuff for general unproductivity
   include steam
   include spotify
+
+  include league_of_legends
+  include skype
 
   #lolcommits is gunna want the below
   include xquartz

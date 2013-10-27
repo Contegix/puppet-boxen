@@ -49,7 +49,7 @@ github "python", "1.1.1"
 github "pycharm", "1.0.3"
 github "zeromq", "1.0.0"
 github "league_of_legends", "1.1.2"
-
+github "redis", "1.0.0"
 
 github "adium",             "1.2.0"
 github "caffeine",          "1.0.0"
