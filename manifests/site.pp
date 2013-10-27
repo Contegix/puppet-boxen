@@ -88,4 +88,30 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
+
+  include autoconf
+  include gcc
+  include inifile
+  include openssl
+  include repository
+  include stdlib
+  include sudo 
+  include xquartz 
+
+  include mysql  
+  include phpstorm
+  include php
+  include virtualbox
+  include skype
+  include webstorm
+  include hipchat
+  include macvim
+  include iterm2
+  include python
+  include pycharm
+  include zeromq
+  include league_of_legends
+
+  include homebrew
+  include skype
 }

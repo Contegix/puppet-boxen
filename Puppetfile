@@ -36,3 +36,17 @@ github "xquartz",    "1.1.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+github "mysql", "1.1.5"
+github "phpstorm", "1.0.4"
+github "php", "1.1.4"
+github "virtualbox", "1.0.7"
+github "skype", "1.0.6"
+github "webstorm", "1.1.1"
+github "hipchat", "1.0.8"
+github "macvim", "1.0.0"
+github "iterm2", "1.0.3"
+github "python", "1.1.1"
+github "pycharm", "1.0.3"
+github "zeromq", "1.0.0"
+github "league_of_legends", "1.1.2"
+
