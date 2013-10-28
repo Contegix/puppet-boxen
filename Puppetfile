@@ -35,6 +35,7 @@ github "sudo",       "1.0.0"
 github "xquartz",    "1.1.0"
 github "pkgconfig", "1.0.0"
 github "pcre", "1.0.0"
+github "libpng", "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
@@ -46,7 +47,7 @@ github "skype", "1.0.6"
 github "webstorm", "1.1.1"
 github "hipchat", "1.0.8"
 github "macvim", "1.0.0"
-github "iterm2", "1.0.3"
+#github "iterm2", "1.0.3"
 github "python", "1.1.1"
 github "pycharm", "1.0.3"
 github "zeromq", "1.0.0"

@@ -11,21 +11,17 @@ class people::johann8384 {
   include mysql  
   include phpstorm
   include php
+  include iterm2::stable
 
   include webstorm
   include hipchat
   include macvim
-  include iterm2
   include python
   include pycharm
 
   #text editors i hate the least
   include macvim
   include sublime_text_2
-
-  #terminalz
-  include zsh
-  include iterm2
 
   #virtual machines
   include virtualbox
@@ -51,12 +47,6 @@ class people::johann8384 {
   #lolcommits is gunna want the below
   include xquartz
   # include imagemagick #fuck boxen's custom bottle, use homebrew
-
-  # some custom modules to add-on to stuff, see modules directory for manifests
-  include oh-my-zsh
-  include oh-my-zsh::plugins::syntax-highlighting
-  include vim-janus
-  #TODO: set default color scheme / prefs for iterm2 / install solarized
 
   #
   # define convenience variables for later
@@ -175,7 +165,6 @@ class people::johann8384 {
     [
       'imagesnap', #webcams are meant to be CLI tools
       'pianobar',  #music is meant to be listened to from CLI
-      'wget',      #files are meant to be downloaded there too
       'imagemagick'
     ]:
     ensure => present,
